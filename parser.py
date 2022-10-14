@@ -19,17 +19,14 @@ while anchor:
     if len(items):
         for el in items:
             if len(el) == 35:
-                title = el.select('._card__bottom_1akif_1 > ._card__content_1akif_357 > a')
+                # title = el.select('._card__bottom_1akif_1 > ._card__content_1akif_357 > a')
+                title = html_page.find_all('a', class_='_card__title_1akif_1')
                 # Выводим название каждой игры с 1-ой страницы
                 for game in title:
                     print(game.text)
                 page += 1
                 print(page)
             else:
-                print(len(el))
-                print(len(el))
-                print(len(el))
-
                 title = el.select('._card__bottom_1akif_1 > ._card__content_1akif_357 > a')
                 # Выводим название каждой игры с 1-ой страницы
                 for game in title:
