@@ -1,0 +1,38 @@
+1667681874195	geckodriver	INFO	Listening on 127.0.0.1:53779
+1667681877276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53780" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilextwNd5"
+1667681946256	geckodriver	INFO	Listening on 127.0.0.1:54555
+1667681949313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile6iI5nn"
+1667681949908	Marionette	INFO	Marionette enabled
+1667681949918	Marionette	INFO	Listening on port 54567
+Read port: 54567
+WebDriver BiDi listening on ws://127.0.0.1:54557
+1667681950119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile6iI5nn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54557/devtools/browser/0a34cf30-e01a-4f66-bbb7-255e61cf7674
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667681959724	Marionette	INFO	Stopped listening on port 54567
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\user\AppData\Local\Temp\rust_mozprofile6iI5nn\protections.sqlite
+1667681992945	geckodriver	INFO	Listening on 127.0.0.1:54727
+1667681995974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilejKiBVo"
+1667681996485	Marionette	INFO	Marionette enabled
+1667681996494	Marionette	INFO	Listening on port 54738
+Read port: 54738
+WebDriver BiDi listening on ws://127.0.0.1:54728
+1667681996681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilejKiBVo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54728/devtools/browser/e2ea1292-4ef3-4a04-a10d-ebbdc9803d63
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667682010785	Marionette	INFO	Stopped listening on port 54738
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667682049531	geckodriver	INFO	Listening on 127.0.0.1:55053
+1667682052575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55054" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilevX8JdG"
+1667682053102	Marionette	INFO	Marionette enabled
+1667682053110	Marionette	INFO	Listening on port 55066
+Read port: 55066
+WebDriver BiDi listening on ws://127.0.0.1:55054
+1667682053289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilevX8JdG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55054/devtools/browser/dc376c5d-6efa-45bb-a67d-e3ec28c32ca1
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667682062211	Marionette	INFO	Stopped listening on port 55066
